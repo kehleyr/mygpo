@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-27 20:48+0000\n"
+"POT-Creation-Date: 2020-01-02 19:17+0000\n"
 "PO-Revision-Date: 2010-07-16 08:51+0200\n"
 "Last-Translator: Stefan Koegl <stefan@skoegl.net>\n"
 "Language-Team: DE <LL@li.org>\n"
@@ -483,19 +483,18 @@ msgstr "Abonnenten"
 #: mygpo/directory/templates/directory/license-podcasts.html:50
 #: mygpo/directory/templates/episode_toplist.html:41
 #: mygpo/directory/templates/toplist.html:47
-#, fuzzy
 msgid "Currently not available"
-msgstr "Auch verfügbar: "
+msgstr "Zur Zeit nicht verfügbar"
 
 #: mygpo/directory/templates/directory/licenses.html:13
 #: mygpo/directory/templates/directory/licenses.html:16
 msgid "Podcasts with License Information"
-msgstr ""
+msgstr "Podcasts mit Lizenzinformationen"
 
 #: mygpo/directory/templates/directory/licenses.html:23
 #: mygpo/web/templatetags/menu.py:44
 msgid "License"
-msgstr ""
+msgstr "Lizenzen"
 
 #: mygpo/directory/templates/directory/licenses.html:24
 #: mygpo/directory/templates/podcast_lists.html:24
@@ -532,7 +531,6 @@ msgstr "von"
 #: mygpo/directory/templates/episode_toplist.html:57
 #: mygpo/directory/templates/toplist.html:60
 #: mygpo/directory/templates/toplist.html:64
-#, fuzzy
 msgid "Language"
 msgstr "Sprachen"
 
@@ -541,7 +539,7 @@ msgstr "Sprachen"
 #: mygpo/directory/templates/toplist.html:68
 #: mygpo/directory/templates/toplist.html:70
 msgid "all"
-msgstr ""
+msgstr "alle"
 
 #: mygpo/directory/templates/episode_toplist.html:75
 #: mygpo/directory/templates/toplist.html:83
@@ -550,23 +548,22 @@ msgstr "OK"
 
 #: mygpo/directory/templates/missing.html:11
 #: mygpo/directory/templates/missing.html:14 mygpo/web/templatetags/menu.py:39
-#, fuzzy
 msgid "Missing Podcast"
-msgstr "Vorgeschlagene Podcasts"
+msgstr "Fehlender Podcast"
 
 #: mygpo/directory/templates/missing.html:20
 #, python-format
 msgid ""
 "If you're missing a podcast on %(sitename)s, please enter its feed URL here"
-msgstr ""
+msgstr "Falls du einen Podcast auf %(sitename)s vermisst, gib hier die Feed-URL ein"
 
 #: mygpo/directory/templates/missing.html:27
 msgid "Check"
-msgstr ""
+msgstr "Überprüfen"
 
 #: mygpo/directory/templates/missing.html:36
 msgid "The podcast already exists"
-msgstr ""
+msgstr "Dieser Podcast existiert bereits"
 
 #: mygpo/directory/templates/missing.html:49
 #, fuzzy
@@ -584,14 +581,12 @@ msgstr "Vorgeschlagene Podcasts"
 #: mygpo/podcastlists/templates/lists.html:16
 #: mygpo/podcastlists/templates/lists_user.html:9
 #: mygpo/web/templatetags/menu.py:40 mygpo/web/templatetags/menu.py:68
-#, fuzzy
 msgid "Podcast Lists"
-msgstr "Podcast-Topliste"
+msgstr "Podcast-Listen"
 
 #: mygpo/directory/templates/podcast_lists.html:22
-#, fuzzy
 msgid "List Name"
-msgstr "Name"
+msgstr "Name der Liste"
 
 #: mygpo/directory/templates/podcast_lists.html:23
 #, fuzzy
@@ -608,12 +603,12 @@ msgstr "herunterladen"
 #: mygpo/directory/templates/podcast_lists.html:76
 #: mygpo/podcastlists/templates/lists_user.html:37
 msgid "Know Some Great Podcasts?"
-msgstr ""
+msgstr "Kennst du tolle Podcasts?"
 
 #: mygpo/directory/templates/podcast_lists.html:77
 #: mygpo/podcastlists/templates/lists_user.html:38
 msgid "Create a list of podcasts about a topic you like"
-msgstr ""
+msgstr "Erstelle eine Liste mit Podcasts über ein Thema, das dich interessiert"
 
 #: mygpo/directory/templates/search.html:11
 #: mygpo/directory/templates/search.html:14
@@ -629,7 +624,7 @@ msgstr "Suchen"
 #: mygpo/podcastlists/templates/list.html:102
 #: mygpo/subscriptions/templates/subscriptions.html:51
 msgid "Search term or feed URL"
-msgstr ""
+msgstr "Suchbegriff oder Feed-URL"
 
 #: mygpo/directory/templates/search.html:79
 #: mygpo/podcastlists/templates/list_search.html:65
@@ -644,7 +639,7 @@ msgstr "Suchen"
 
 #: mygpo/directory/templates/search.html:92
 msgid "Access the following address to search for <em>tech</em> podcasts."
-msgstr ""
+msgstr "Rufe die folgende Adresse auf, um nach <em>tech</em>-Podcasts zu suchen:"
 
 #: mygpo/directory/templates/toplist.html:14
 #: mygpo/directory/templates/toplist.html:17
@@ -653,7 +648,7 @@ msgstr "Topliste"
 
 #: mygpo/directory/templates/toplist.html:88
 msgid "Client Access"
-msgstr ""
+msgstr "Client-Zugriff"
 
 #: mygpo/directory/views.py:334
 #, fuzzy, python-format
@@ -1389,14 +1384,12 @@ msgid "Removed slug {slug} from {episode}"
 msgstr ""
 
 #: mygpo/share/templates/share/components/private-toggle.html:11
-#, fuzzy
 msgid "Public"
-msgstr "Publisher"
+msgstr "Öffentlich"
 
 #: mygpo/share/templates/share/components/private-toggle.html:16
-#, fuzzy
 msgid "Private"
-msgstr "Als Privat markieren"
+msgstr "Privat"
 
 #: mygpo/share/templates/share/favorites.html:10
 #: mygpo/share/templates/share/favorites.html:14
@@ -1476,9 +1469,8 @@ msgstr "Abonnements"
 #: mygpo/share/templates/share/overview.html:34
 #: mygpo/share/templates/share/overview.html:49
 #: mygpo/share/templates/share/overview.html:76
-#, fuzzy
 msgid "New Token"
-msgstr "Neue Episode"
+msgstr "Neues Token"
 
 #: mygpo/share/templates/share/overview.html:40
 #, fuzzy
@@ -1500,6 +1492,8 @@ msgid ""
 "Private items are protected by a special token. Only those who know the "
 "exact link can access your content"
 msgstr ""
+"Private Einträge werden über ein spezielles Token geschützt. "
+"Nur Personen, die den exakten Link kennen, können auf deine Inhalte zugreifen."
 
 #: mygpo/share/templates/userpage-denied.html:16
 #, python-format
@@ -1607,14 +1601,14 @@ msgid ""
 "You don't have any subscriptions yet. Set up your <a href=\"%(devices)s"
 "\">podcast clients</a> and <a href=\"%(directory)s\">discover interesting "
 "podcasts</a>."
-msgstr ""
+msgstr "Du hast noch keine Abonnements. Richte deine <a href=\"%(devices)s"
+"\">Podcast-Clients</a> ein und <a href=\"%(directory)s\">entdecke spannende Podcasts</a>."
 
 #: mygpo/subscriptions/templates/subscriptions.html:63
 #: mygpo/suggestions/templates/suggestions.html:54
 #: mygpo/web/templates/device.html:53
-#, fuzzy
 msgid "Download OPML"
-msgstr "herunterladen"
+msgstr "OPML herunterladen"
 
 #: mygpo/subscriptions/views.py:117
 #, fuzzy, python-format
@@ -1647,9 +1641,8 @@ msgid "No Interest"
 msgstr "Kein Interesse"
 
 #: mygpo/suggestions/templates/suggestions.html:47
-#, fuzzy
 msgid "No Suggestions Yet"
-msgstr "Empfehlungen"
+msgstr "Bisher keine Empfehlungen"
 
 #: mygpo/users/models.py:224
 msgid "Desktop"
@@ -1896,7 +1889,7 @@ msgstr "Neues Passwort bestätigen"
 
 #: mygpo/web/forms.py:80
 msgid "A few words about you"
-msgstr ""
+msgstr "Ein paar Worte über dich"
 
 #: mygpo/web/forms.py:94 mygpo/web/templates/devicelist.html:23
 msgid "Name"
@@ -2395,16 +2388,17 @@ msgid "Synchronized"
 msgstr "Synchronisiert"
 
 #: mygpo/web/templates/devicelist.html:33
-#, fuzzy
 msgid "Not Synchronized"
-msgstr "Synchronisieren"
+msgstr "Nicht synchronisiert"
 
 #: mygpo/web/templates/devicelist.html:53
 msgid ""
 "You don't have any devices yet. Go to the <a href=\"https://gpoddernet."
 "readthedocs.io/en/latest/user/clients.html\">clients</a> page to learn how "
 "to set up your client applications."
-msgstr ""
+msgstr "Du hast noch keine Geräte hinzugefügt. Gehe auf die <a href=\"https://gpoddernet."
+"readthedocs.io/en/latest/user/clients.html\">Clients</a>-Seite um zu erfahren, wie du deine "
+"Client-Anwendungen einrichten kannst"
 
 #: mygpo/web/templates/devicelist.html:74
 msgid "Deleted Devices"
@@ -2415,9 +2409,8 @@ msgid "Reactivate"
 msgstr "Wiederherstellen"
 
 #: mygpo/web/templates/devicelist.html:93
-#, fuzzy
 msgid "Delete Permanently"
-msgstr "Account löschen"
+msgstr "Endgültig löschen"
 
 #: mygpo/web/templates/favorites.html:10 mygpo/web/templates/favorites.html:13
 #: mygpo/web/templatetags/menu.py:54 mygpo/web/templatetags/menu.py:65
@@ -2429,9 +2422,8 @@ msgid "You need to login to access this page."
 msgstr "Sie müssen sich einloggen um diese Seite anzuzeigen."
 
 #: mygpo/web/templates/login.html:40
-#, fuzzy
 msgid "Forgot your password?"
-msgstr "Kein Passwort verwenden"
+msgstr "Passwort vergessen?"
 
 #: mygpo/web/templates/maintenance.html:8
 #: mygpo/web/templates/maintenance.html:11
@@ -2487,60 +2479,57 @@ msgstr "Leider waren wir nicht in der Lage, Ihr Passwort zurückzusetzen."
 
 #: mygpo/web/templates/privacy.html:9 mygpo/web/templates/privacy.html:12
 msgid "Privacy Settings"
-msgstr "Einstellungen"
+msgstr "Privatsphäre"
 
 #: mygpo/web/templates/privacy.html:18
 #, python-format
 msgid "%(domain)s distinguishes between public and private subscriptions."
-msgstr ""
+msgstr "%(domain)s unterscheidet zwischen öffentlichen und privaten Abonnements."
 
 #: mygpo/web/templates/privacy.html:20
 msgid ""
 "<strong>Public</strong> subscriptions are included in your <a href=\"/share/"
 "\">shared podcasts</a> and our anonymized public statistics."
 msgstr ""
+"<strong>Öffentliche</strong> Abonnements tauchen in deinen <a href=\"/share/"
+"\">geteilten Podcasts</a> sowie in unseren anonymisierten öffentlichen Statistiken auf."
 
 #: mygpo/web/templates/privacy.html:21
 msgid ""
 "<strong>Private</strong> subscriptions do neither show up in your list of "
 "shared podcasts, nor are considered in our statistics."
 msgstr ""
+"<strong>Private</strong> Abonnements tauchen weder in deiner Liste "
+"von geteilten Podcasts auf, noch werden sie in unserer Statistik berücksichtigt."
 
 #: mygpo/web/templates/privacy.html:29
-#, fuzzy
 #| msgid "User subscriptions"
 msgid "Default for new subscriptions"
-msgstr "Benutzer-Abonnements"
+msgstr "Standard für neue Abonnements"
 
 #: mygpo/web/templates/privacy.html:68
-#, fuzzy
 msgid "Public Subscriptions"
-msgstr "Abonnements"
+msgstr "Öffentliche Abonnements"
 
 #: mygpo/web/templates/privacy.html:79
-#, fuzzy
 msgid "Make Private"
-msgstr "Als Privat markieren"
+msgstr "Auf privat stellen"
 
 #: mygpo/web/templates/privacy.html:90
-#, fuzzy
 msgid "Private Subscriptions"
-msgstr "Abonnements"
+msgstr "Private Abonnements"
 
 #: mygpo/web/templates/privacy.html:101
-#, fuzzy
 msgid "Make Public"
-msgstr "Als Öffentlich markieren"
+msgstr "Auf öffentlich stellen"
 
 #: mygpo/web/templates/privacy_policy.html:8 mygpo/web/templatetags/menu.py:29
-#, fuzzy
 msgid "Privacy Policy"
-msgstr "Einstellungen"
+msgstr "Datenschutzerklärung"
 
 #: mygpo/web/templates/restore_password.html:29
-#, fuzzy
 msgid "Reset Password"
-msgstr "Passwort"
+msgstr "Passwort zurücksetzen"
 
 #: mygpo/web/templates/subscribe.html:7
 #, python-format
@@ -2563,9 +2552,9 @@ msgstr ""
 #: mygpo/web/templates/subscribe.html:43
 #, fuzzy
 msgid "Create Device"
-msgstr "Gelöschte Geräte"
+msgstr "Gerät anlegen"
 
-#: mygpo/web/templates/subscribe.html:49
+#: mygpo/web/templates/subscribef.html:49
 msgid "Why Unnamed Podcast?"
 msgstr "Warum unbenannte Podcasts?"
 
