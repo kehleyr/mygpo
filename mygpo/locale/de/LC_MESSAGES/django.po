@@ -790,7 +790,7 @@ msgstr "Löschen"
 
 #: mygpo/podcastlists/templates/lists.html:41
 msgid "You don't have any podcast lists yet."
-msgstr ""
+msgstr "Du hast noch keine Podcast-Listen."
 
 #: mygpo/podcastlists/templates/lists.html:52
 #: mygpo/share/templates/share/favorites.html:57
@@ -1156,9 +1156,8 @@ msgid ""
 msgstr ""
 
 #: mygpo/publisher/templates/publisher/home.html:69
-#, fuzzy
 msgid "Create a new token"
-msgstr "Aktuelles Passwort"
+msgstr "Erstelle ein neues Token"
 
 #: mygpo/publisher/templates/publisher/info.html:12
 msgid "Publisher Services"
@@ -1167,7 +1166,7 @@ msgstr "Publisher-Seiten"
 #: mygpo/publisher/templates/publisher/info.html:18
 #, python-format
 msgid "%(sitename)s offers several services for podcast publishers."
-msgstr "%(sitename)s bietet spezielle Services für Podcast-Anbieter."
+msgstr "%(sitename)s bietet spezielle Services für Podcast-Anbieter an."
 
 #: mygpo/publisher/templates/publisher/info.html:21
 #, python-format
@@ -1177,7 +1176,7 @@ msgid ""
 "first item in the list of example podcast."
 msgstr ""
 "Sie können Ihren Podcast auf der Startseite von %(sitename)s bewerben. "
-"Zusätzlich erhalten Benutzer des gPodder-Clients Ihren Podcast als 1. "
+"Zusätzlich erhalten Benutzer des gPodder-Clients Ihren Podcast als ersten "
 "Beispiel-Podcast angezeigt."
 
 #: mygpo/publisher/templates/publisher/info.html:24
@@ -1229,7 +1228,7 @@ msgid ""
 "next=/publisher/\">login</a>."
 msgstr ""
 "Falls Sie bereits als Publisher registriert sind, <a href=\"/login/?next=/"
-"publisher/\">loggen Siei sich ein</a>."
+"publisher/\">loggen Sie sich ein</a>."
 
 #: mygpo/publisher/templates/publisher/info.html:41
 #, python-format
@@ -1243,8 +1242,8 @@ msgid ""
 "website, you can make it really easy for your visitors to subscribe to your "
 "podcast - especially for users of mobile phones."
 msgstr ""
-"Wenn Sie auf <a href=\"/publisher/link/\">%(sitename)s verlinken</a> machen "
-"Sie es Ihren Besuchern besonders einfach Ihren Podcasts zu abonnieren"
+"Wenn Sie auf <a href=\"/publisher/link/\">%(sitename)s verlinken</a>, machen "
+"Sie es Ihren Besuchern besonders einfach, Ihren Podcasts zu abonnieren"
 
 #: mygpo/publisher/templates/publisher/podcast.html:49
 #, python-format
@@ -1278,7 +1277,7 @@ msgstr ""
 
 #: mygpo/publisher/templates/publisher/podcast.html:88
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: mygpo/publisher/templates/publisher/podcast.html:106
 #, fuzzy
@@ -1329,7 +1328,7 @@ msgstr ""
 
 #: mygpo/publisher/templates/publisher/podcast.html:178
 msgid "License Information"
-msgstr ""
+msgstr "Lizenzinformationen"
 
 #: mygpo/publisher/templates/publisher/podcast.html:186
 #, python-format
@@ -1369,9 +1368,8 @@ msgid ""
 msgstr ""
 
 #: mygpo/publisher/views.py:188 mygpo/users/views/settings.py:112
-#, fuzzy
 msgid "Data updated"
-msgstr "Geräte-Liste"
+msgstr "Die Daten wurden aktualisiert"
 
 #: mygpo/publisher/views.py:198
 #, fuzzy
@@ -1423,17 +1421,16 @@ msgstr "Benutzername"
 #: mygpo/share/templates/share/favorites.html:73
 #, fuzzy
 msgid "Password:"
-msgstr "Passwort"
+msgstr "Passwort:"
 
 #: mygpo/share/templates/share/favorites.html:79
 #, fuzzy
 msgid "Remove password"
-msgstr "Neues Passwort"
+msgstr "Passwort entfernen"
 
 #: mygpo/share/templates/share/favorites.html:82
-#, fuzzy
 msgid "Generate new password"
-msgstr "Neues Passwort erzeugen"
+msgstr "Neues Passwort generieren"
 
 #: mygpo/share/templates/share/favorites.html:98
 #, python-format
@@ -1445,9 +1442,8 @@ msgstr ""
 "Sie werden auch auf %(sitename)s angezeigt."
 
 #: mygpo/share/templates/share/favorites.html:110
-#, fuzzy
 msgid "Create password"
-msgstr "Aktuelles Passwort"
+msgstr "Passwort erstellen"
 
 #: mygpo/share/templates/share/overview.html:9
 msgid "Sharing"
@@ -1483,9 +1479,8 @@ msgid "Settings"
 msgstr "Einstellungen"
 
 #: mygpo/share/templates/share/overview.html:57
-#, fuzzy
 msgid "Favorites Feed"
-msgstr "Favorit"
+msgstr "Favoriten-Feed"
 
 #: mygpo/share/templates/share/overview.html:84
 msgid ""
@@ -1493,7 +1488,7 @@ msgid ""
 "exact link can access your content"
 msgstr ""
 "Private Einträge werden über ein spezielles Token geschützt. "
-"Nur Personen, die den exakten Link kennen, können auf deine Inhalte zugreifen."
+"Nur Personen, die den vollständigen Link kennen, können auf deine Inhalte zugreifen."
 
 #: mygpo/share/templates/userpage-denied.html:16
 #, python-format
@@ -1501,10 +1496,12 @@ msgid ""
 "%(username)s didn't share his user page with you. Maybe you should contact "
 "him to get the correct link."
 msgstr ""
+"%(username)s hat seine/ihre User-Seite nicht mit dir geteilt. Vielleicht solltest du "
+"die Person kontaktieren, um den korrekten Link zu erhalten."
 
 #: mygpo/share/templates/userpage-denied.html:20
 msgid "Want to have your own user page?"
-msgstr ""
+msgstr "Lust auf deine eigene User-Seite?"
 
 #: mygpo/share/templates/userpage-denied.html:20
 #, python-format
@@ -1556,33 +1553,31 @@ msgstr "Lieblings-Episoden"
 
 #: mygpo/share/templates/userpage.html:166
 msgid "That's You!"
-msgstr ""
+msgstr "Das bist du!"
 
 #: mygpo/share/templates/userpage.html:168
 msgid "Edit your profile"
-msgstr ""
+msgstr "Profil bearbeiten"
 
 #: mygpo/share/templates/userpage.html:176
-#, fuzzy
 msgid "Stats"
-msgstr "Statistiken:"
+msgstr "Statistiken"
 
 #: mygpo/share/templates/userpage.html:178
-#, fuzzy
 msgid "Total Played:"
-msgstr "Abgespielt"
+msgstr "Insgesamt gehört:"
 
 #: mygpo/share/templates/userpage.html:184
 msgid "Played Last Month:"
-msgstr ""
+msgstr "Im letzten Monat gehört:"
 
 #: mygpo/share/templates/userpage.html:190
 msgid "Member Since:"
-msgstr ""
+msgstr "Mitglied seit:"
 
 #: mygpo/share/templates/userpage.html:194
 msgid "the early days"
-msgstr ""
+msgstr "Urzeiten"
 
 #: mygpo/subscriptions/templates/subscriptions.html:11
 #: mygpo/subscriptions/templates/subscriptions.html:15
@@ -1662,16 +1657,15 @@ msgstr "Server"
 
 #: mygpo/users/models.py:228
 msgid "Tablet"
-msgstr ""
+msgstr "Tablet"
 
 #: mygpo/users/models.py:229
 msgid "Other"
 msgstr "Andere"
 
 #: mygpo/users/templates/registration/activation_failed.html:8
-#, fuzzy
 msgid "Activation failed"
-msgstr "Aktivierungs-Email gesendet"
+msgstr "Aktivierung gescheitert"
 
 #: mygpo/users/templates/registration/activation_failed.html:11
 msgid "Account not activated"
@@ -1834,13 +1828,12 @@ msgid "Username missing"
 msgstr "Benutzername"
 
 #: mygpo/users/views/user.py:78
-#, fuzzy
 msgid "Password missing"
-msgstr "Ihr Passwort wurde zurückgesetzt"
+msgstr "Fehlendes Passwort"
 
 #: mygpo/users/views/user.py:85
 msgid "Wrong username or password."
-msgstr "Benutzername oder Passwort falsch"
+msgstr "Benutzername oder Passwort falsch."
 
 #: mygpo/users/views/user.py:93 mygpo/users/views/user.py:142
 #, fuzzy
@@ -1904,10 +1897,9 @@ msgid "Device ID"
 msgstr "Geräte-ID"
 
 #: mygpo/web/forms.py:110
-#, fuzzy
 #| msgid "Device"
 msgid "ID on device"
-msgstr "Geräte"
+msgstr "Geräte-ID"
 
 #: mygpo/web/forms.py:123
 msgid "Share this subscription with other users (public)"
@@ -1958,16 +1950,15 @@ msgstr ""
 #: mygpo/web/templates/account.html:90
 #, python-format
 msgid "Connected with %(gmail)s"
-msgstr ""
+msgstr "Verbunden mit %(gmail)s"
 
 #: mygpo/web/templates/account.html:93
-#, fuzzy
 msgid "Disconnect"
-msgstr "Entdecken"
+msgstr "Trennen"
 
 #: mygpo/web/templates/account.html:96
 msgid "Connect"
-msgstr ""
+msgstr "Verbinden"
 
 #: mygpo/web/templates/base.html:40 mygpo/web/templatetags/menu.py:71
 msgid "Account"
@@ -1985,7 +1976,7 @@ msgstr "Anmelden"
 #: mygpo/web/templates/base.html:51 mygpo/web/templates/home.html:46
 #: mygpo/web/templates/login.html:47
 msgid "Login with Google"
-msgstr ""
+msgstr "Login mit Google"
 
 #: mygpo/web/templates/base.html:133 mygpo/web/templates/home.html:153
 #: mygpo/web/templatetags/menu.py:34
@@ -2004,7 +1995,7 @@ msgstr ""
 #: mygpo/web/templates/base.html:143 mygpo/web/templates/home.html:163
 #: mygpo/web/templatetags/menu.py:26
 msgid "Docs"
-msgstr ""
+msgstr "Dokumentation"
 
 #: mygpo/web/templates/base.html:144 mygpo/web/templates/home.html:164
 msgid "Mailing&nbsp;List"
@@ -2017,16 +2008,16 @@ msgstr "Empfehlungen"
 
 #: mygpo/web/templates/base.html:151 mygpo/web/templates/home.html:171
 msgid "Support&nbsp;Us"
-msgstr ""
+msgstr "Unterstütze uns"
 
 #: mygpo/web/templates/base.html:152 mygpo/web/templates/contribute.html:22
 #: mygpo/web/templates/home.html:172
 msgid "Donate"
-msgstr ""
+msgstr "Spenden"
 
 #: mygpo/web/templates/base.html:159 mygpo/web/templates/home.html:179
 msgid "Follow"
-msgstr ""
+msgstr "Folgen"
 
 #: mygpo/web/templates/base.html:161 mygpo/web/templates/home.html:181
 msgid "Blog"
@@ -2042,7 +2033,7 @@ msgstr ""
 
 #: mygpo/web/templates/base.html:169 mygpo/web/templates/home.html:189
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: mygpo/web/templates/base.html:170 mygpo/web/templates/home.html:190
 msgid "Libraries"
@@ -2054,9 +2045,8 @@ msgstr ""
 
 #: mygpo/web/templates/base.html:177 mygpo/web/templates/home.html:197
 #: mygpo/web/templatetags/menu.py:73
-#, fuzzy
 msgid "Publish"
-msgstr "Publisher"
+msgstr "Veröffentlichen"
 
 #: mygpo/web/templates/base.html:178 mygpo/web/templates/home.html:198
 msgid "Get&nbsp;Access"
@@ -2236,7 +2226,7 @@ msgstr ""
 
 #: mygpo/web/templates/dashboard.html:145
 msgid "Install"
-msgstr ""
+msgstr "Installieren"
 
 #: mygpo/web/templates/delete_account.html:14
 msgid "Delete your Account?"
@@ -2339,7 +2329,7 @@ msgid ""
 "synchronized devices."
 msgstr ""
 "Falls du einige Geräte synchronisierst, werden auf diesen Geräten immer die "
-"selbenAbonnements vorhanden sein. Ein Podcast der auf einem Gerät abonniert "
+"selben Abonnements vorhanden sein. Ein Podcast, der auf einem Gerät abonniert "
 "wurde, wird automatisch an alle synchronisierten Geräte weitergegeben."
 
 #: mygpo/web/templates/device-edit.html:104 mygpo/web/templates/device.html:107
@@ -2397,8 +2387,8 @@ msgid ""
 "readthedocs.io/en/latest/user/clients.html\">clients</a> page to learn how "
 "to set up your client applications."
 msgstr "Du hast noch keine Geräte hinzugefügt. Gehe auf die <a href=\"https://gpoddernet."
-"readthedocs.io/en/latest/user/clients.html\">Clients</a>-Seite um zu erfahren, wie du deine "
-"Client-Anwendungen einrichten kannst"
+"readthedocs.io/en/latest/user/clients.html\">Clients</a>-Seite, um zu erfahren, wie du deine "
+"Client-Programme einrichten kannst"
 
 #: mygpo/web/templates/devicelist.html:74
 msgid "Deleted Devices"
@@ -2419,7 +2409,7 @@ msgstr "Lieblings-Episoden"
 
 #: mygpo/web/templates/login.html:15
 msgid "You need to login to access this page."
-msgstr "Sie müssen sich einloggen um diese Seite anzuzeigen."
+msgstr "Sie müssen sich einloggen, um diese Seite anzuzeigen."
 
 #: mygpo/web/templates/login.html:40
 msgid "Forgot your password?"
@@ -2428,7 +2418,7 @@ msgstr "Passwort vergessen?"
 #: mygpo/web/templates/maintenance.html:8
 #: mygpo/web/templates/maintenance.html:11
 msgid "Maintenance"
-msgstr ""
+msgstr "Wartung"
 
 #: mygpo/web/templates/maintenance.html:15
 msgid ""
