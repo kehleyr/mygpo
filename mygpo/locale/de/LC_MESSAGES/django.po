@@ -2437,8 +2437,8 @@ msgid ""
 "You didn't tag any podcasts yet. Go to your <a href=\"%(subscriptions-url)s"
 "\">subscriptions</a> and tag some."
 msgstr ""
-"Sie haben nicht alle Podcasts getagt. Gehen Sie zu Ihren<a href="
-"\"%(subscriptions-url)s\">abonnements</a> und tagen sie einige."
+"Du hast bislang keine Tags zu deinen Podcasts hinzugefügt. "
+"Gehe zu deinen <a href="\"%(subscriptions-url)s\">Abonnements</a>, um Podcasts zu taggen."
 
 #: mygpo/web/templates/password_reset.html:4
 msgid "Password reset"
@@ -2540,13 +2540,12 @@ msgstr ""
 "abonniert haben."
 
 #: mygpo/web/templates/subscribe.html:43
-#, fuzzy
 msgid "Create Device"
 msgstr "Gerät anlegen"
 
 #: mygpo/web/templates/subscribef.html:49
 msgid "Why Unnamed Podcast?"
-msgstr "Warum unbenannte Podcasts?"
+msgstr "Warum gibt unbenannte Podcasts?"
 
 #: mygpo/web/templates/subscribe.html:49
 #, fuzzy
@@ -2560,7 +2559,7 @@ msgid ""
 "simply be called this way."
 msgstr ""
 "Da die Beschaffung der Namen und anderer Informationen etwas Zeit in "
-"Anspruch nehmen kann. Bis dies erledigt ist wird der Podcast auf diese Wiese "
+"Anspruch nehmen kann. Bis dahin wird der Podcast auf diese Wiese "
 "dargestellt."
 
 #: mygpo/web/templates/user_subscriptions.html:14
@@ -2576,7 +2575,8 @@ msgstr "%(username)ss Podcast-Abos"
 msgid ""
 "<a href=\"%(userpage-url)s\">%(username)s</a> has %(num_subscriptions)s "
 "subscriptions"
-msgstr ""
+msgstr "<a href=\"%(userpage-url)s\">%(username)s</a> hat %(num_subscriptions)s "
+"Abonnements"
 
 #: mygpo/web/templates/user_subscriptions.html:42
 msgid "Download Subscriptions as OPML"
@@ -2697,7 +2697,7 @@ msgstr "Diese Episode wurde heruntergeladen"
 #: mygpo/web/templatetags/episodes.py:74
 #, python-format
 msgid " from %(start)s to %(end)s"
-msgstr "vom %(start)s zum %(end)s"
+msgstr " vom %(start)s zum %(end)s"
 
 #: mygpo/web/templatetags/episodes.py:79
 #, python-format
