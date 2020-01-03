@@ -436,34 +436,31 @@ msgstr "Zufällige Podcasts"
 
 #: mygpo/directory/templates/directory/add-podcast-status.html:16
 #: mygpo/directory/templates/directory/add-podcast-status.html:25
-#, fuzzy
 msgid "Podcast Added"
-msgstr "Podcast"
+msgstr "Podcast hinzugefügt"
 
 #: mygpo/directory/templates/directory/add-podcast-status.html:18
 #: mygpo/directory/templates/directory/add-podcast-status.html:27
-#, fuzzy
 msgid "Adding Podcast"
-msgstr "Podcast hinzufügen"
+msgstr "Podcast wird hinzugefügt"
 
 #: mygpo/directory/templates/directory/add-podcast-status.html:44
-#, fuzzy
 msgid "No podcasts could be added"
-msgstr "Podcast die Sie veröffentlichen"
+msgstr "Es konnten keine Podcasts hinzugefügt werden"
 
 #: mygpo/directory/templates/directory/license-podcasts.html:13
 #: mygpo/directory/templates/directory/license-podcasts.html:16
 #, python-format
 msgid "Podcasts with License %(licensename)s"
-msgstr ""
+msgstr "Podcasts mit %(licensename)s-Lizenz"
 
 #: mygpo/directory/templates/directory/license-podcasts.html:24
 msgid "License overview"
-msgstr ""
+msgstr "Lizenz-Übersicht"
 
 #: mygpo/directory/templates/directory/license-podcasts.html:29
 msgid "View License"
-msgstr ""
+msgstr "Lizenz ansehen"
 
 #: mygpo/directory/templates/directory/license-podcasts.html:36
 #: mygpo/directory/templates/search.html:35
@@ -628,9 +625,8 @@ msgstr "Suchbegriff oder Feed-URL"
 
 #: mygpo/directory/templates/search.html:79
 #: mygpo/podcastlists/templates/list_search.html:65
-#, fuzzy
 msgid "Nothing found"
-msgstr "Nicht gefunden"
+msgstr "Keine Ergebnisse"
 
 #: mygpo/directory/templates/search.html:91
 #, fuzzy
@@ -639,7 +635,7 @@ msgstr "Suchen"
 
 #: mygpo/directory/templates/search.html:92
 msgid "Access the following address to search for <em>tech</em> podcasts."
-msgstr "Rufe die folgende Adresse auf, um nach <em>tech</em>-Podcasts zu suchen:"
+msgstr "Rufe die folgende Adresse auf, um nach <em>tech</em>-Podcasts zu suchen."
 
 #: mygpo/directory/templates/toplist.html:14
 #: mygpo/directory/templates/toplist.html:17
@@ -651,9 +647,9 @@ msgid "Client Access"
 msgstr "Client-Zugriff"
 
 #: mygpo/directory/views.py:334
-#, fuzzy, python-format
+#, python-format
 msgid "%d podcasts added"
-msgstr "Podcasts"
+msgstr "%d Podcasts hinzugefügt"
 
 #: mygpo/history/templates/episode-history.html:47
 #: mygpo/history/templates/episode-history.html:81
@@ -714,12 +710,12 @@ msgstr "Zurück zu"
 
 #: mygpo/history/templates/history.html:66
 msgid "Nothing happened yet."
-msgstr ""
+msgstr "Keine Ereignisse bisher."
 
 #: mygpo/history/templates/history.html:73
 #: mygpo/history/templates/history.html:75
 msgid "Later"
-msgstr ""
+msgstr "Später"
 
 #: mygpo/history/templates/history.html:80
 #: mygpo/history/templates/history.html:82
@@ -730,45 +726,41 @@ msgstr "Nein"
 #: mygpo/history/templates/history.html:87
 #: mygpo/history/templates/history.html:89
 msgid "Earlier"
-msgstr ""
+msgstr "Früher"
 
 #: mygpo/history/templates/podcast-history.html:47
 msgid "no history yet"
-msgstr ""
+msgstr "Noch kein Verlauf"
 
 #: mygpo/podcastlists/templates/list.html:28
 #, python-format
 msgid "\"%(list_title)s\" by %(ownername)s"
-msgstr ""
+msgstr "\"%(list_title)s\" von %(ownername)s"
 
 #: mygpo/podcastlists/templates/list.html:35
 #, python-format
 msgid "a podcast list by <a href=\"%(user-lists-url)s\">%(ownername)s</a>"
-msgstr ""
+msgstr "eine Podcast-Liste von <a href=\"%(user-lists-url)s\">%(ownername)s</a>"
 
 #: mygpo/podcastlists/templates/list.html:74
-#, fuzzy
 msgid "No Podcasts"
-msgstr "Meine Podcasts"
+msgstr "Keine Podcasts"
 
 #: mygpo/podcastlists/templates/list.html:84
 msgid "Vote"
-msgstr ""
+msgstr "Abstimmen"
 
 #: mygpo/podcastlists/templates/list.html:90
-#, fuzzy
 msgid "Download as OPML"
-msgstr "Abos als OPML herunterladen."
+msgstr "Als OPML herunterladen."
 
 #: mygpo/podcastlists/templates/list.html:121
-#, fuzzy
 msgid "Your own Podcast Lists"
-msgstr "Podcast-Topliste"
+msgstr "Deine Podcast-Listen"
 
 #: mygpo/podcastlists/templates/list.html:122
-#, fuzzy
 msgid "Create and share your own podcast lists "
-msgstr "Vorgeschlagene Podcasts"
+msgstr "Erstelle eigene Podcast-Listen und teile sie "
 
 #: mygpo/podcastlists/templates/list.html:123
 #: mygpo/publisher/templates/publisher/home.html:31
@@ -803,25 +795,27 @@ msgid ""
 "Podcast Lists are intended to share podcasts about certain topics and are "
 "therefore always visible to everyone."
 msgstr ""
+"Podcast-Listen dienen dazu, Podcasts zu bestimmten Themen zu verbreiten, "
+"und sind daher immer öffentlich sichtbar."
 
 #: mygpo/podcastlists/templates/lists_user.html:12
 #, python-format
 msgid "Podcast Lists by %(username)s"
-msgstr ""
+msgstr "Podcast-Listen by %(username)s"
 
 #: mygpo/podcastlists/templates/lists_user.html:27
 #, python-format
 msgid "%(username)s hasn't created any podcast lists yet."
-msgstr ""
+msgstr "%(username)s hat noch keine Podcast-Listen erstellt."
 
 #: mygpo/podcastlists/views.py:103
 msgid "You have to specify a title."
-msgstr ""
+msgstr "Du musst einen Titel angeben."
 
 #: mygpo/podcastlists/views.py:109
 #, python-brace-format
 msgid "\"{title}\" is not a valid title"
-msgstr ""
+msgstr "\"{title}\" ist kein gültiger Titel"
 
 #: mygpo/podcastlists/views.py:162
 msgid "Thanks for rating!"
@@ -840,7 +834,7 @@ msgstr "Unbenannter Podcast"
 #: mygpo/podcasts/models.py:698
 #, python-brace-format
 msgid "Unknown Podcast from {domain}"
-msgstr ""
+msgstr "Unbekannter Podcast von {domain}"
 
 #: mygpo/podcasts/templates/episode.html:85
 #: mygpo/podcasts/templates/episodes.html:27
@@ -2583,9 +2577,8 @@ msgid "Download Subscriptions as OPML"
 msgstr "Abos als OPML herunterladen."
 
 #: mygpo/web/templates/user_subscriptions.html:45
-#, fuzzy
 msgid "Subscribe to Changes"
-msgstr "Abonniert auf"
+msgstr "Änderungen abonnieren"
 
 #: mygpo/web/templates/user_subscriptions.html:51
 #, python-format
