@@ -563,7 +563,6 @@ msgid "The podcast already exists"
 msgstr "Dieser Podcast existiert bereits"
 
 #: mygpo/directory/templates/missing.html:49
-#, fuzzy
 msgid "Add Podcast"
 msgstr "Podcast hinzufügen"
 
@@ -2432,7 +2431,7 @@ msgid ""
 "\">subscriptions</a> and tag some."
 msgstr ""
 "Du hast bislang keine Tags zu deinen Podcasts hinzugefügt. "
-"Gehe zu deinen <a href="\"%(subscriptions-url)s\">Abonnements</a>, um Podcasts zu taggen."
+"Gehe zu deinen <a href=\"%(subscriptions-url)s\">Abonnements</a>, um Podcasts zu taggen."
 
 #: mygpo/web/templates/password_reset.html:4
 msgid "Password reset"
